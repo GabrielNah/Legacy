@@ -52,12 +52,20 @@
         </div>
 
         <div class="menu-footer">
-            <ul class="social social-rounded">
-                <li><a href="#"><i class="socicon-twitter"></i></a></li>
-                <li><a href="#"><i class="socicon-facebook"></i></a></li>
-                <li><a href="#"><i class="socicon-googleplus"></i></a></li>
-            </ul>
-            <div class="menu-copyright">&copy; 2022 <strong>ГК НАСЛЕДИЕ</strong>. Все права защищены.</div>
+            <div class="header-contact-item">
+                <p>ТЕЛЕФОН:</p>
+                <a href="tel:74995505592" class="phone-link">8 499 550-5592</a>
+            </div>
+            <div class="header-contact-item ">
+                <p>EMAIL:</p>
+                <a href="mailto:info@nasledie-gk.ru" class="mail-link">info@nasledie-gk.ru</a>
+            </div>
+{{--            <ul class="social social-rounded">--}}
+{{--                <li><a href="#"><i class="socicon-twitter"></i></a></li>--}}
+{{--                <li><a href="#"><i class="socicon-facebook"></i></a></li>--}}
+{{--                <li><a href="#"><i class="socicon-googleplus"></i></a></li>--}}
+{{--            </ul>--}}
+{{--            <div class="menu-copyright">&copy; 2022 <strong>ГК НАСЛЕДИЕ</strong>. Все права защищены.</div>--}}
         </div>
     </div>
 </header>

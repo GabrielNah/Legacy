@@ -882,7 +882,7 @@ input:focus {
 .body-menu-opened .menu .social,
 .body-menu-opened .menu .menu-copyright {
   opacity: 1;
-  transform: translateY(0);
+  /*transform: translateY(0);*/
 }
 
 .brand {
@@ -1373,8 +1373,8 @@ input:focus {
 
 .menu-main {
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
+  /*overflow-x: hidden;*/
+  /*overflow-y: auto;*/
 }
 
 .menu-main > ul {
@@ -1432,9 +1432,15 @@ input:focus {
 }
 
 .menu-footer {
-  padding-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
 }
-
+.menu-footer .header-contact-item{
+    margin-top: 40%;
+    font-weight: bold;
+}
 .menu-copyright {
   margin-top: 18px;
   font-size: .875rem;
@@ -3964,6 +3970,8 @@ a.btn-play i {
 
 .list-style{
     list-style-type: none;
+    margin-left: -40px;
+    margin-top:5% ;
 }
 
 /*-------------------------------------------------------------------------------
