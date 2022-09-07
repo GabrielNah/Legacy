@@ -3481,15 +3481,13 @@ a.btn-play i {
 }
 
 .slide-contact-address {
-  margin-bottom: 7.03703704vmin;
-  font-size: 1.25rem;
   color: #fff;
 }
 
 .slide-contact-mail,
 .slide-contact-phone {
   margin-bottom: 2.77777778vmin;
-  font-size: 2.25rem;
+  font-size: 23px;
   font-weight: bold;
   letter-spacing: -.5px;
 }
@@ -3728,7 +3726,7 @@ a.btn-play i {
 
 .home-piling h2,
 .home-piling .h2 {
-  margin-bottom: 6.11111111vmin;
+  margin-bottom: 15px;
   font-size: 2.9rem;
   font-weight: normal;
   line-height: 1.0;
@@ -3955,7 +3953,7 @@ a.btn-play i {
 }
 
 .home-piling .slide-contact-address {
-  margin-bottom: 6.85185185vmin;
+  margin-bottom: 2vmin;
 }
 
 .home-piling .slide-contact-mail,
@@ -7963,10 +7961,30 @@ a.phone-link {
 	padding-top: 20%
 }
 
+@media (max-width: 500px) {
+    .slide-content {
+        display: block;
+    }
+
+    .contact-form{
+        margin-top: 20px;
+    }
+}
 @media (min-width: 768px) {
   html {
     font-size: 13px;
   }
+
+    .home-piling h2,
+    .home-piling .h2 {
+        margin-bottom: 6vmin;
+        font-size: 2.9rem;
+        font-weight: normal;
+        line-height: 1.0;
+    }
+    .slide-contact-mail, .slide-contact-phone{
+        margin-bottom: 43px!important;
+    }
 }
 
 @media (min-width: 992px) {
