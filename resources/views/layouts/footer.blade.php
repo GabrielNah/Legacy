@@ -1,6 +1,6 @@
 <div class="section pp-scrollable slide slide2 slide-dark">
     <div class="slide-container">
-        <div class="container\">
+        <div class="container">
             <div class="row slide-content justify-content-between">
                 <div class="col-lg-4  col-sm-4">
                     <h2 class="slide-title font-libre h2"><span class="text-primary">МОСКВА</span></h2>
