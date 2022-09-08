@@ -651,7 +651,7 @@ input:focus {
 
 .form-control {
   border-radius: 0;
-  padding: .625rem 1.25rem .625rem;
+  /*padding: .625rem 1.25rem .625rem;*/
   height: calc(1.5em + 1.25rem + 2px);
 }
 
@@ -3726,7 +3726,7 @@ a.btn-play i {
 
 .home-piling h2,
 .home-piling .h2 {
-  margin-bottom: 15px;
+  margin-bottom: 24px;
   font-size: 2.9rem;
   font-weight: normal;
   line-height: 1.0;
@@ -7961,6 +7961,9 @@ a.phone-link {
 	padding-top: 20%
 }
 
+.tel-block{
+    height: 10%;
+}
 @media (max-width: 500px) {
     .slide-content {
         display: block;
@@ -7970,21 +7973,28 @@ a.phone-link {
         margin-top: 20px;
     }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   html {
     font-size: 13px;
   }
 
     .home-piling h2,
     .home-piling .h2 {
-        margin-bottom: 6vmin;
         font-size: 2.9rem;
         font-weight: normal;
         line-height: 1.0;
     }
+
     .slide-contact-mail, .slide-contact-phone{
         margin-bottom: 43px!important;
+        font-size: 17px;
     }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 992px) {
