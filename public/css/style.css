@@ -566,6 +566,7 @@ input:focus {
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 0;
+  margin-top: 10px;
 }
 
 .btn-sm {
@@ -7967,6 +7968,7 @@ a.phone-link {
 @media (max-width: 500px) {
     .slide-content {
         display: block;
+        margin: auto;
     }
 
     .contact-form{
@@ -7986,8 +7988,11 @@ a.phone-link {
     }
 
     .slide-contact-mail, .slide-contact-phone{
-        margin-bottom: 43px!important;
+        margin-bottom: 0.7vmin;
         font-size: 17px;
+    }
+    .home-piling .slide-contact-address{
+        font-size: 12px;
     }
 }
 

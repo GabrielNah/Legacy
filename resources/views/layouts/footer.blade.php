@@ -6,7 +6,7 @@
                     <h2 class="slide-title font-libre h2"><span class="text-primary">МОСКВА</span></h2>
                 </div>
                 <div class="row slide-content justify-content-between">
-                    <div class="col-lg-4  col-sm-5">
+                    <div class="col-lg-5  col-sm-5 pl-0 pl-md-3">
                         <div class="col">
                             <div class="slide-contact-address">ЛЕНИНГРАДСКИЙ ПР., Д.80, КОРПУС 21, ЭТАЖ 2,
                                 ПОМЕЩЕНИЕ 1
@@ -22,7 +22,7 @@
                                 <a href="tel:+74995505592" class="phone-link">8 499550-5592</a>
                             </div>
                         </div>
-                        <div class="col mt-4">
+                        <div class="col mt-lg-4">
                             <a class="btn btn-primary btn-rounded mr-lg-4" href="contact.html">Связаться
                                 <i class="icon ion-ios-arrow-right"></i>
                             </a>
